@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left"><a href="">Pratik</a></div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#11">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#name">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <section class="first" id="home">
+      <div class="leftsection" style="margin: 100px;">I am <span class="purple">Pratik Pandey.</span>
+        I am a passonate <span id="element"></span>
+      </div>
+      <div class="rightsection">
+        <img src="Pratik1.jpg" alt="profile">
+      </div>
+    </section>
+    <section class="secondsection" style="font-size: 16px;">
+      <h1 id="11" style="font-size: 50px;">About</h1>
+      <div class="leftside">
+        <p>
+        <div>
+          <h2 style="font-size: 50px;">Pratik <span>Pandey</span></h2>
+        </div>
+        I'm currently enrolled in my +2 program at the National School of Sciences, Lainchaur. Being a tech
+        enthusiast, I've recently delved into web development and found it incredibly fulfilling. My aim is to
+        devise solutions that address the challenges faced by my community, ultimately making a positive impact
+        on humanity. I thrive on challenges that push me beyond my comfort zone, allowing me to continuously
+        learn and grow. Therefore, I warmly welcome any internship opportunities that come my way.
+        </p>
+      </div>
+    </section>
+    <section class="secondsection" id="skills">
+      <h1>My Skills</h1>
+      <div class="sk">
+        <p>I am very young and passonate developer . I am in learning stage of web development.
+          I will surely provide you fast services. If you need any help in web development you can easily contact me .
+        </p>
+      </div>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 align="center">Contact me</h2>
+          <form action="/submit" method="post">
+            <div class="form-group">
+              <label htmlFor="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label htmlFor="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label htmlFor="message">Message</label>
+              <textarea name="message" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <span><a>Pratik Pandey</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | pandeypratik9988@gmail.com &nbsp;&nbsp; <span
+        class="far fa-copyright"></span> 2024 All rights reserved.</span>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer.', 'Graphics designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
